@@ -40,7 +40,7 @@ def main():
 
   threads = []
   for directory in directories:
-      thread = threading.Thread(target=check_dir, args=(url, directory))
+      thread = threading.Thread(target=check_directory, args=(url, directory))
       thread.start()
       threads.append(thread)
 
@@ -48,5 +48,5 @@ def main():
       thread.join()
 
 if __name__ == "__main__":
-  signal.signal(signal.SIGINT, sighand)
+  signal.signal(signal.SIGINT, signal_hand)
   main()
