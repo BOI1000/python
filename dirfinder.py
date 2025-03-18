@@ -25,7 +25,7 @@ def check_directory():
 
 def main():
   if len(sys.argv) < 3:
-    print("Usage: dirchecker.py [url] [wordlist]")
+    print("Usage: dirfinder.py [url] [wordlist]")
     sys.exit(1)
     
   url = sys.argv[1]
