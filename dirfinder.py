@@ -22,7 +22,7 @@ def check_directory(url, directory):
             allowed_methods = response.headers.get('Allow', '')
             print(f"[-] Method not allowed: {full_url}\nSupported methods: {allowed_methods}")
 
-    except resquests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e:
         print(f"[ERROR] {e}")
 
 def main():
