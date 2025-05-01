@@ -1,2 +1,2 @@
-# python
-# this is for me made public or private
+# Python
+Just gonna start uploading python scripts here.
