@@ -29,4 +29,4 @@ if __name__ == "__main__":
     if not os.path.isfile(wordlists):
         sys.exit(1)
     brutus_one(url, wordlists)
-sys.exit(0)
+sys.exit(0) # untested
